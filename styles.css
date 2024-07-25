@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    color: #FF69B4;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: #FFFAFA;
+    text-align: center;
+}
+
+.jumbotron .btn {
+    background-color: #FF69B4;
+    border: none;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #FFFAFA;
+    padding: 20px 0;
+}
+
+.footer h5 {
+    color: #FF69B4;
+}
+
+.footer a {
+    color: #FF69B4;
+}
+
+.footer a:hover {
+    text-decoration: none;
+}
+
+
+.btnprimary {
+    
+    color: #fffdfe;
+    background-color: #FF69B4;
+    border: none;
+
+}
+.Read {
+    
+    color: #fffdfe;
+    background-color: #FF69B4;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin: 10px 0;
+}
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.delivery {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.delivery span {
+    margin-right: 5px;
+    color: #ff4081;
+}
+.user-options {
+    display: flex;
+    align-items: center;
+}
+.user-options a {
+    text-decoration: none;
+    color: #ff4081;
+    margin-left: 20px;
+}
+nav {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 0;
+    display: block;
+}
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .search-bar {
+        margin: 10px 0;
+    }
+    .delivery {
+        margin: 10px 0;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+@media (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+    .logo img {
+        height: 30px;
+        margin-right: 5px;
+    }
+    .user-options a {
+        margin-left: 10px;
+    }
+    nav ul li {
+        margin: 5px 0;
+    }
+}
